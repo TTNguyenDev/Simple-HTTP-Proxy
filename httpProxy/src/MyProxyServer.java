@@ -48,41 +48,31 @@ public class MyProxyServer {
             ServerSocket serverSocket = new ServerSocket(MyProxyServer.portNumber, 1);
 
             while (true) {
-                //System.out.println("Inside while loop ");
                 Socket clientSocket = serverSocket.accept();
-                //System.out.println("Connection to MyProxyServer is " + clientSocket.isConnected());
-
                 InputStreamReader inputStreamReader = new InputStreamReader(clientSocket.getInputStream());
 
                 BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-                String command = bufferedReader.readLine();
-
+                String requestFromClient;
+                int i = 0;
+                while (i<8) {
+                    requestFromClient = bufferedReader.readLine();
+                    System.out.println(requestFromClient);
+                    i++;
+                }
                 bufferedReader.close();
-                
+
                 //---------Handled check blacklist
-                String[] words = command.split("\\s");
-                String mURL = words[1];
+//                String[] words = requestFromClient.split("\\s");
+//                String mURL = words[1];
 
 
 
-                System.out.println(mURL);
-                if (checkBlacklist(mURL)) {
-                    System.out.println(mURL + " đã tồn tại trong blacklist");
-                } else {
-                    System.out.println("Được phép truy cập");
-                }
-
-
-               // System.out.println("Client has asked to ....\n" + command);
-
-                if (command.equals("Cancel")) {
-                    System.out.println("Shutting down the server ...");
-                    break;
-                }
-
-
-                /*printStream.close();
-                fileOutputStream.close();*/
+//                System.out.println(mURL);
+//                if (checkBlacklist(mURL)) {
+//                    System.out.println(mURL + " đã tồn tại trong blacklist");
+//                } else {
+//                    System.out.println("Được phép truy cập");
+//                }
             }
 
 
