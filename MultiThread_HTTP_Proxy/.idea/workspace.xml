@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7e3aa43-8acd-452c-bbc5-bf10b6d5e32e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpProxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../httpProxy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpProxy/blacklist.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../httpProxy/blacklist.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../httpProxy/src/MyProxyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../httpProxy/src/MyProxyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProxyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +29,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+            <state relative-caret-position="220">
+              <caret line="63" column="553" selection-start-line="63" selection-start-column="553" selection-end-line="63" selection-end-column="553" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blackList.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -55,6 +59,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Connect</find>
+      <find>abc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,14 +71,15 @@
         <option value="$PROJECT_DIR$/src/com/company/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/company/ProxyServer.java" />
         <option value="$PROJECT_DIR$/src/ProxyServer.java" />
+        <option value="$PROJECT_DIR$/blackList.conf" />
         <option value="$PROJECT_DIR$/src/Handler.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="706" />
+    <option name="x" value="115" />
     <option name="y" value="23" />
-    <option name="width" value="1214" />
+    <option name="width" value="1337" />
     <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,8 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,21 +97,18 @@
             </path>
             <path>
               <item name="MultiThread_HTTP_Proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiThread_HTTP_Proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiThread_HTTP_Proxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554124112660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554296113617" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,9 +161,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="23" width="1214" height="969" extended-state="0" />
+    <frame x="115" y="23" width="1337" height="969" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098122865" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15057915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -171,7 +172,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27594072" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27594072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -201,18 +202,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProxyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blackList.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+        <state relative-caret-position="220">
+          <caret line="63" column="553" selection-start-line="63" selection-start-column="553" selection-end-line="63" selection-end-column="553" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
