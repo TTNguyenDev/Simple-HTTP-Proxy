@@ -16,7 +16,7 @@ public class Handler extends Thread {
     public boolean checkBlacklist(String mUrl) {
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new FileReader("/Users/trietnguyen/Desktop/Simple-HTTP-Proxy/MultiThread_HTTP_Proxy/blacklist.conf"));
+            br = new BufferedReader(new FileReader("blacklist.conf"));
 
             String textInALine;
 
