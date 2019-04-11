@@ -73,18 +73,24 @@ public class Handler extends Thread {
                             "            position: fixed;\n" +
                             "            top: 50%;\n" +
                             "            left: 50%;\n" +
-                            "            color: red;\n" +
-                            "            font-size: 80px;\n" +
-                            "            font-weight: 700;\n" +
                             "            /* bring your own prefixes */\n" +
                             "            transform: translate(-50%, -50%);\n" +
+                            "            text-align: center;\n" +
                             "        }    \n" +
+                            "        h1 {\n" +
+                            "            color: red;\n" +
+                            "            font-weight: 700;\n" +
+                            "            font-size: 80px;\n" +
+                            "            text-align: center;\n" +
+                            "        }\n" +
                             "    </style>\n" +
                             "</head>\n" +
                             "<body>\n" +
                             "    <div class=\"centered\">\n" +
-                            "        403 Access Forbidden\n" +
+                            "        <h1>403 Access Forbidden</h1>\n" +
+                            "        <p>You don't have permission to access / on this server</p>\n" +
                             "      </div>\n" +
+                            "     \n" +
                             "</body>\n" +
                             "</html>";
 
